@@ -20,38 +20,40 @@
 //   console.log(data);
 // });
 
-import DetectFileEncodingAndLanguage from "detect-file-encoding-and-language";
-import fs from "fs/promises";
+// import DetectFileEncodingAndLanguage from "detect-file-encoding-and-language";
+// import fs from "fs/promises";
 
 // fs.readFile("./files/file.txt")
 //   .then((data) => console.log(data))
 //   .catch((error) => console.log(error));
 
-const func = async () => {
-  //   const buffer = await fs.readFile("./files/file.txt");
-  //   const text = buffer.toString();
-  //   console.log(text);
+// const func = async () => {
+//   const buffer = await fs.readFile("./files/file.txt");
+//   const text = buffer.toString();
+//   console.log(text);
 
-  //   const text = await fs.readFile("./files/file.txt", "utf-8");
-  //   console.log(text);
+//   const text = await fs.readFile("./files/file.txt", "utf-8");
+//   console.log(text);
 
-  // інформація про кодування
+// інформація про кодування
 
-  //   const fileData = await DetectFileEncodingAndLanguage("./files/file.txt");
+//   const fileData = await DetectFileEncodingAndLanguage("./files/file.txt");
 
-  //   const data = await fs.readFile("./files/file.txt", fileData);
-  //   console.log(data);
+//   const data = await fs.readFile("./files/file.txt", fileData);
+//   console.log(data);
 
-  // Append
+// Append
 
-  //   await fs.appendFile("./files/file.txt", "\nPHP forever");
-  //   // n - з нового рядка
+//   await fs.appendFile("./files/file.txt", "\nPHP forever");
+//   // n - з нового рядка
 
-  // Writefile
+// Writefile
 
-  //   const result = await fs.writeFile("./files/file.txt", "Helo new file");
-  //   await fs.appendFile("./files/file2.txt", "\nPHP forever");
-  //   await fs.writeFile("./files/file3.txt", "\nPHP forever");
-  await fs.unlink("./files/file2.txt", "\nPHP forever");
-};
-func();
+//   const result = await fs.writeFile("./files/file.txt", "Helo new file");
+//   await fs.appendFile("./files/file2.txt", "\nPHP forever");
+//   //   await fs.writeFile("./files/file3.txt", "\nPHP forever");
+//   await fs.unlink("./files/file2.txt", "\nPHP forever");
+// };
+// func();
+
+// =====================================Урок 2===============================
