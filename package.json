@@ -13,10 +13,12 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "commander": "^12.1.0",
     "cors": "^2.8.5",
     "detect-file-encoding-and-language": "^2.4.0",
     "express": "^4.19.2",
     "nanoid": "^5.0.7",
+    "yargs": "^17.7.2",
     "yarn": "^1.22.22"
   },
   "devDependencies": {

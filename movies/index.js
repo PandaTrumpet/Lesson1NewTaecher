@@ -43,3 +43,14 @@ export const updateById = async (id, data) => {
   await updateMovoies(movies);
   return movies[index];
 };
+
+export const deleteById = async (id) => {
+  const movies = await getAllMovies();
+  const index = movies.findIndex((item) => item.id === id);
+  if (index === -1) {
+    return null;
+  }
+  const [result] = movies.splice(index);
+  await updateMovoies(movies);
+  return result;
+};
